@@ -1,0 +1,103 @@
+/*================================Satrt the large screens=========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+  
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+    footer .content ul li a{
+        font-size: 16px !important;
+    }
+    .custom-btn span{
+        font-size: 12px !important;
+    }
+}
+/*this is property for an search button only*/
+@media(max-width: 1199px)and (min-width: 768px)
+{
+    .custom-btn span{
+        font-size: 12px !important;
+    }
+    
+    footer .content ul li a{
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 991px) {
+    .navbar .nav-content .navbar-nav{
+        flex-direction: column !important;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 100px;
+        right: -100%;
+        background-color: #fff;
+        align-items: center;
+        transition: all .5s linear;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .active-nav{
+        right: 0% !important;
+    }
+    .navbar .nav-content .navbar-nav li {
+        margin-bottom: 20px !important;
+    } 
+    .all_services .nav{
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .all_services .nav .nav-link{
+        margin: 0px 10px;
+    }
+    .contact-pg .contact-cards{
+        margin: 0px !important;
+    }
+}
+/*==============================Start the screen of tablet=========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+ 
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    
+}
+@media (max-width: 766px){
+    header .data-image-content ,
+    header .owl-carousel .item::before{
+        display: none !important;
+    }
+}
+@media (max-width: 500px) {
+    .navbar .social-media{
+        display: none;
+    }
+}
+/*==============================Start the screen of mobbile=========================*/
+@media (min-width: 577px) and (max-width: 768px)
+{
+  
+
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+    
+   
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+  
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+    
+}
+@media (max-width: 320px)
+{
+   
+    footer .content ul li a{
+        font-size: 13px !important;
+    } 
+}
